@@ -1,0 +1,11 @@
+Branching and merging
+
+Git supports branching which means that you can work on different versions of your collection of files. A branch separates these different versions and allows the user to switch between these version to work on them.
+
+For example, if you want to develop a new feature, you can create a branch and make the changes in this branch without affecting the state of your files in another branch.
+
+Branches in Git are local to the respository. A branch created in a local repository, which was cloned from another repository, does not need to have a counterpart in the remote repository. Local branches can be compared with other local branches and with remote tracking branches. A remote tracking branch proxies the state of a branch in another remote repository.
+
+Git supports that changes from different branches can be combined. This allows the developer, for example, to work independently on a branch called production for bugfixes and another branch called feature_123 for implementing a new feature. The developer can use Git commands to combine the changes at a later point in time.
+
+For example, the Linux kernel community used to share code corrections (patches) via mailing lists to combine changes coming from different developers. Git is a system which allows developers to automate such a process. 
